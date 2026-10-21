@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-21T19:14:19Z",
+  "updated": "2026-10-21T21:16:26Z",
   "plugins": [
     {
       "id": "flight",
@@ -66,21 +66,23 @@
       "id": "bill",
       "name": "Bill",
       "bundleId": "com.goosecannon.bill",
-      "tagline": "Animated captions for Premiere Pro",
+      "tagline": "Animated, translated captions for Premiere Pro",
       "color": "pink",
       "hosts": [
         "PPRO"
       ],
       "about": [
-        "Bill transcribes your sequence on this Mac and places word-by-word animated captions on the timeline.",
-        "Edit the words in Bill's editor. The captions follow when you move clips."
+        "Bill listens to your sequence on this Mac and times every word. It places animated captions on the timeline, and they follow when you move clips.",
+        "Start from the audio, an SRT or a transcript. Then translate the captions, on this Mac or with Claude."
       ],
       "features": [
-        "Local transcription, nothing is uploaded",
-        "Paste a script and Bill matches the timing",
-        "A words list so names are spelled right",
-        "Split, join and retime captions",
-        "Caption styles as a Premiere template"
+        "Fast or Most accurate transcription, offline on this Mac",
+        "Add a script and Bill checks the words against it",
+        "Translated captions: on this Mac, or with Claude for better wording",
+        "A words list per client, so names come out right",
+        "Timing tool: drag words onto the audio",
+        "Style presets for fonts, colours, boxes and animation",
+        "Export as .txt or .srt"
       ],
       "requirements": [
         {
@@ -95,7 +97,17 @@
         {
           "id": "whisper",
           "level": "required",
-          "for": "Transcription"
+          "for": "Transcription and word timing"
+        },
+        {
+          "id": "claude-code",
+          "level": "optional",
+          "for": "Translating captions with Claude"
+        },
+        {
+          "id": "claude-account",
+          "level": "optional",
+          "for": "Translating with Claude on the team's plan"
         }
       ],
       "feed": "https://github.com/goosecannon/bill-releases/releases/latest/download/",
