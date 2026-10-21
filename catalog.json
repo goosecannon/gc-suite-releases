@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "updated": "2026-10-21T19:14:19Z",
+  "plugins": [
+    {
+      "id": "flight",
+      "name": "Flight",
+      "bundleId": "com.goosecannon.autoflight",
+      "tagline": "AI rough cuts for Premiere Pro",
+      "color": "green",
+      "hosts": [
+        "PPRO"
+      ],
+      "about": [
+        "Flight reads your sequence, transcribes it on this Mac and lets Claude decide the cuts. It works on a copy, so the original sequence stays as it was.",
+        "Review the cuts in grey, then apply them. Every track stays in sync."
+      ],
+      "features": [
+        "Clean: removes pauses, flubs and repeats",
+        "Shorts: finds the best moments and builds 9:16 sequences",
+        "Restructure: new order with a hook first",
+        "Captions, music from Epidemic Sound and a music remover for game footage",
+        "Learns your style from your ratings and notes"
+      ],
+      "includes": "Includes Bill's caption editor as a tab.",
+      "requirements": [
+        {
+          "id": "premiere",
+          "level": "required"
+        },
+        {
+          "id": "claude-code",
+          "level": "required",
+          "for": "Every cut decision"
+        },
+        {
+          "id": "claude-account",
+          "level": "required",
+          "for": "Runs on the team's Claude plan"
+        },
+        {
+          "id": "ffmpeg",
+          "level": "required",
+          "for": "Reading audio and frames"
+        },
+        {
+          "id": "whisper",
+          "level": "required",
+          "for": "Transcription"
+        },
+        {
+          "id": "epidemic-sound",
+          "level": "optional",
+          "for": "Music search and tracks cut to length"
+        },
+        {
+          "id": "music-remover",
+          "level": "optional",
+          "for": "Removing music from game footage"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/flight-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "bill",
+      "name": "Bill",
+      "bundleId": "com.goosecannon.bill",
+      "tagline": "Animated captions for Premiere Pro",
+      "color": "pink",
+      "hosts": [
+        "PPRO"
+      ],
+      "about": [
+        "Bill transcribes your sequence on this Mac and places word-by-word animated captions on the timeline.",
+        "Edit the words in Bill's editor. The captions follow when you move clips."
+      ],
+      "features": [
+        "Local transcription, nothing is uploaded",
+        "Paste a script and Bill matches the timing",
+        "A words list so names are spelled right",
+        "Split, join and retime captions",
+        "Caption styles as a Premiere template"
+      ],
+      "requirements": [
+        {
+          "id": "premiere",
+          "level": "required"
+        },
+        {
+          "id": "apple-silicon",
+          "level": "required",
+          "for": "The speech model"
+        },
+        {
+          "id": "whisper",
+          "level": "required",
+          "for": "Transcription"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/bill-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "honk",
+      "name": "Honk",
+      "bundleId": "com.goosecannon.honk",
+      "tagline": "Sound mixing on a map",
+      "color": "orange",
+      "hosts": [
+        "PPRO",
+        "AEFT"
+      ],
+      "about": [
+        "Honk lays out every sound in your sequence on a map. Left to right is how clear a sound should be, up and down is how loud.",
+        "Move a sound and Honk sets levels, EQ and ducking for everything around it."
+      ],
+      "features": [
+        "Suggest places every sound by role and normalises to −14 LUFS",
+        "Automatic ducking and EQ carving under dialogue",
+        "Groups of clips that act as one sound",
+        "Master step: export, master in LANDR, import and compare",
+        "Works in Premiere Pro and After Effects"
+      ],
+      "requirements": [
+        {
+          "id": "premiere",
+          "level": "required",
+          "anyOf": "host"
+        },
+        {
+          "id": "aftereffects",
+          "level": "required",
+          "anyOf": "host"
+        },
+        {
+          "id": "landr",
+          "level": "optional",
+          "for": "Mastering the finished mix"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/honk-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "gease",
+      "name": "Gease",
+      "bundleId": "com.goosecannon.gease",
+      "tagline": "Text animation and easing for After Effects",
+      "color": "yellow",
+      "hosts": [
+        "AEFT"
+      ],
+      "about": [
+        "Gease builds text animations on text layers with two markers, IN and OUT. Drag a marker to move or stretch the animation. No keyframes to shuffle.",
+        "For any layer with keyframes, Gease shapes the ease: bezier, spring or bounce, with exact overshoot."
+      ],
+      "features": [
+        "Split by character, word or line with stagger",
+        "Curve editor with Apple, Material 3 and spring easings",
+        "Graph: one long ease across many keyframes",
+        "Masks, gradients and shimmer",
+        "29 presets, plus your own"
+      ],
+      "requirements": [
+        {
+          "id": "aftereffects",
+          "level": "required"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/gease-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "anser",
+      "name": "Anser",
+      "bundleId": "com.goosecannon.anser",
+      "tagline": "Safe zones for every platform",
+      "color": "cream",
+      "hosts": [
+        "PPRO",
+        "AEFT"
+      ],
+      "about": [
+        "Anser draws each platform's UI over your frame, so captions and logos stay clear of buttons and text.",
+        "Pick several platforms and Anser shows the area that is safe on all of them."
+      ],
+      "features": [
+        "TikTok, Reels, Stories, Shorts, Facebook, Threads, X, Bluesky and LinkedIn",
+        "Organic and ad safe zones",
+        "9:16, 4:5, 1:1 and 16:9",
+        "Superoverlay: the shared safe area in comp pixels",
+        "Updates itself from the panel too"
+      ],
+      "requirements": [
+        {
+          "id": "premiere",
+          "level": "required",
+          "anyOf": "host"
+        },
+        {
+          "id": "aftereffects",
+          "level": "required",
+          "anyOf": "host"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/anser-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAoCnrgkUWSRz6pJNVppDcaK1wwlMA5ED0ZKWnljVSejU="
+    }
+  ]
+}
