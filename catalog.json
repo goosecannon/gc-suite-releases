@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-21T21:16:26Z",
+  "updated": "2026-10-22T06:45:14Z",
   "plugins": [
     {
       "id": "flight",
@@ -36,7 +36,7 @@
         {
           "id": "claude-account",
           "level": "required",
-          "for": "Runs on the team's Claude plan"
+          "for": "Your own Claude account runs the cuts"
         },
         {
           "id": "ffmpeg",
@@ -107,7 +107,7 @@
         {
           "id": "claude-account",
           "level": "optional",
-          "for": "Translating with Claude on the team's plan"
+          "for": "Translating with your own Claude account"
         }
       ],
       "feed": "https://github.com/goosecannon/bill-releases/releases/latest/download/",
