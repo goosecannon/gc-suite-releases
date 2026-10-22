@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-22T06:56:29Z",
+  "updated": "2026-10-22T08:57:13Z",
   "plugins": [
     {
       "id": "flight",
@@ -54,6 +54,9 @@
           "for": "Removing music from game footage"
         }
       ],
+      "installs": [
+        "speech-model"
+      ],
       "feed": "https://github.com/goosecannon/flight-releases/releases/latest/download/",
       "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
     },
@@ -99,6 +102,10 @@
           "level": "optional",
           "for": "Translating captions with Claude"
         }
+      ],
+      "installs": [
+        "speech-model",
+        "caption-effect"
       ],
       "feed": "https://github.com/goosecannon/bill-releases/releases/latest/download/",
       "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
