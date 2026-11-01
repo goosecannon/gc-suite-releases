@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-22T08:57:13Z",
+  "updated": "2026-11-01T07:24:49Z",
   "plugins": [
     {
       "id": "flight",
@@ -178,6 +178,35 @@
         }
       ],
       "feed": "https://github.com/goosecannon/gease-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "wing",
+      "name": "Wing",
+      "bundleId": "com.goosecannon.wing",
+      "tagline": "One curve for all your keyframes in After Effects",
+      "color": "pink",
+      "hosts": [
+        "AEFT"
+      ],
+      "about": [
+        "Wing sets the easing between keyframes from one graph. Drag the handles, press Apply, and the same curve works on any property: position, scale, opacity, colour, masks and shapes.",
+        "Select three or more keys and Wing makes them one smooth motion instead of stopping at every key. Shape the speed through each key right in the graph."
+      ],
+      "features": [
+        "A dashed line shows the curve already on your keys",
+        "As one: a smooth motion across many keyframes",
+        "Handles and timing for the keys in between",
+        "A library of curves, with folders, export and import",
+        "Square or wide graph, with your own sizes and colours"
+      ],
+      "requirements": [
+        {
+          "id": "aftereffects",
+          "level": "required"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/wing-releases/releases/latest/download/",
       "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
     },
     {
