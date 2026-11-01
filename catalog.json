@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-01T07:24:49Z",
+  "updated": "2026-11-01T08:08:49Z",
   "plugins": [
     {
       "id": "flight",
@@ -153,23 +153,23 @@
     },
     {
       "id": "gease",
-      "name": "Gease",
+      "name": "Geasy",
       "bundleId": "com.goosecannon.gease",
-      "tagline": "Text animation and easing for After Effects",
+      "tagline": "Animation presets for text, shapes and objects in After Effects",
       "color": "yellow",
       "hosts": [
         "AEFT"
       ],
       "about": [
-        "Gease builds text animations on text layers with two markers, IN and OUT. Drag a marker to move or stretch the animation. No keyframes to shuffle.",
-        "For any layer with keyframes, Gease shapes the ease: bezier, spring or bounce, with exact overshoot."
+        "Geasy is a library of animation presets for After Effects. Select a text layer, pick a preset and press Apply. Characters, words or lines animate in and out, and the panel previews it first.",
+        "Shapes, logos and other objects get presets too: give the layer keyframes, and Geasy adds a spring, a bounce or a soft landing. On text, two markers set the timing. Drag IN or OUT to move or stretch the animation."
       ],
       "features": [
-        "Split by character, word or line with stagger",
-        "Curve editor with Apple, Material 3 and spring easings",
-        "Graph: one long ease across many keyframes",
-        "Masks, gradients and shimmer",
-        "29 presets, plus your own"
+        "29 text presets: blur and mask reveals, pops, whips and shimmer",
+        "16 presets for shapes and objects: springs, bounces and overshoot",
+        "Split text by character, word or line with stagger",
+        "Masks, gradients and light sweeps on text",
+        "Save your own presets and star your favourites"
       ],
       "requirements": [
         {
