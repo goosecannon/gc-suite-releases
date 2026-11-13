@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-01T08:08:49Z",
+  "updated": "2026-11-13T23:09:40Z",
   "plugins": [
     {
       "id": "flight",
@@ -207,6 +207,35 @@
         }
       ],
       "feed": "https://github.com/goosecannon/wing-releases/releases/latest/download/",
+      "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
+    },
+    {
+      "id": "swoop",
+      "name": "Swoop",
+      "bundleId": "com.goosecannon.swoop",
+      "tagline": "Transitions on an adjustment layer in Premiere Pro",
+      "color": "orange",
+      "hosts": [
+        "PPRO"
+      ],
+      "about": [
+        "Swoop puts a transition over the cut at the playhead: an adjustment layer with Swoop's own effect, no keyframes. Trim the layer and the move follows.",
+        "The first time, Swoop installs its effect in Premiere's plug-in folder. macOS asks for your password once, then restart Premiere."
+      ],
+      "features": [
+        "62 transitions: zoom, whip, spin, 3D, light leaks, glitch, shake, blur and warp",
+        "Hover a preset to see it move",
+        "One cut, selected clips, or every cut between In and Out, with a mix of presets",
+        "Direction, length, strength, easing and landing in the panel",
+        "Works over log footage and in ACEScct projects"
+      ],
+      "requirements": [
+        {
+          "id": "premiere",
+          "level": "required"
+        }
+      ],
+      "feed": "https://github.com/goosecannon/swoop-releases/releases/latest/download/",
       "pubkey": "MCowBQYDK2VwAyEAOjiBAKoZBcadgIaKjrFqjPEKS36+nEuS/XMNGtq4oq8="
     },
     {
